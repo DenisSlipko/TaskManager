@@ -20,7 +20,6 @@ function TaskDesk() {
 
         const jsonData = await response.json();
         setCards(jsonData);
-        //console.log(jsonData);
       } catch (err) {
         console.log(err);
       }
